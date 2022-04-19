@@ -12,6 +12,7 @@ alias dkinit="sudo /etc/init.d/docker start"
 alias commit="git commit -m"
 alias push="git push"
 alias pull="git pull"
+alias settoken="git config --global credential.helper cache"
 
 #xampp
 alias xminit="sudo /opt/lampp/lampp start"
